@@ -73,8 +73,8 @@ namespace Salusutis
             // For more information see http://go.microsoft.com/fwlink/?LinkID=532715
             services.Configure<FacebookAuthenticationOptions>(options =>
             {
-                options.AppId = Configuration["Authentication:Facebook:AppId"];
-                options.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                options.AppId = "625729657512958"; //Configuration["Authentication:Facebook:AppId"];
+                options.AppSecret = "9d4252220883828d78076111d6995278"; //Configuration["Authentication:Facebook:AppSecret"];
             });
 
             services.Configure<MicrosoftAccountAuthenticationOptions>(options =>
